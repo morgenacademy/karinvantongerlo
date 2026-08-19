@@ -10,12 +10,26 @@
   <meta property="og:description" content="Geen dagje inspiratie dat maandag verdampt. Gedrag, AI en mensen die daarna echt anders werken." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://karinvantongerlo.nl/waarom.html" />
+  <meta property="og:image" content="https://karinvantongerlo.nl/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Karin van Tongerlo op het podium met microfoon" />
+  <meta property="og:locale" content="nl_NL" />
+  <meta property="og:site_name" content="Karin van Tongerlo" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://karinvantongerlo.nl/images/og-image.jpg" />
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>K</text></svg>" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/open-sauce-one@5/400.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/open-sauce-one@5/600.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/open-sauce-one@5/700.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/open-sauce-one@5/800.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/open-sauce-one@5/900.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -29,7 +43,7 @@
         <a href="over-karin.html">Over mij</a>
         <a href="index.html#aanbod">Aanbod</a>
         <a href="waarom.html">Waarom Karin</a>
-        <a href="#boek-mij" class="btn btn-small">Boek mij</a>
+        <a href="#boek-mij" class="btn btn-small">Werk met mij</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Menu openen">
         <span></span><span></span><span></span>
@@ -47,14 +61,14 @@
         precies zoals daarvoor. Ik zorg dat er iets blijft hangen — scherpe inhoud op het moment
         zelf, en gedrag dat écht verandert zodra iedereen weer achter z'n bureau zit.</p>
       <div class="hero-cta reveal">
-        <a href="#boek-mij" class="btn">Boek mij</a>
+        <a href="#boek-mij" class="btn">Werk met mij</a>
         <a href="#redenen" class="btn btn-ghost">Waarom werkt dit?</a>
       </div>
     </div>
   </section>
 
   <!-- ============ PULLQUOTE ============ -->
-  <section class="pullquote-section">
+  <section class="pullquote-section stripes-light--soft">
     <div class="container">
       <figure class="pullquote reveal">
         <blockquote>Karin is een geweldig professionele dagvoorzitter! Ik werk meer dan graag
@@ -83,7 +97,7 @@
   </section>
 
   <!-- ============ VIJF REDENEN ============ -->
-  <section class="section" id="redenen">
+  <section class="section stripes-light" id="redenen">
     <div class="container">
       <div class="section-head section-head--center reveal">
         <p class="eyebrow">Vijf redenen</p>
@@ -141,35 +155,47 @@
   </section>
 
   <!-- ============ VOOR WELKE MOMENTEN ============ -->
-  <section class="section section-dark" id="momenten">
+  <section class="section section-dark stripes" id="momenten">
     <div class="container">
       <div class="section-head reveal">
         <p class="eyebrow">Voor welke momenten</p>
         <h2>Waar ik het verschil maak</h2>
       </div>
       <div class="cards">
-        <article class="card reveal">
-          <div class="card-num">01</div>
-          <h3>Congressen &amp; events</h3>
-          <p class="card-sub">Als dagvoorzitter of moderator</p>
-          <p>Van plenaire opening tot paneldiscussie — zoals de L&amp;D-sessies bij Rabobank.
-            Ik verbind de sprekers, bewaak de rode draad en zorg dat de zaal aan het eind weet
-            wat ze ermee moeten.</p>
+        <article class="card card--media reveal">
+          <img src="images/dagvoorzitter-zaal.jpg" alt="Karin van Tongerlo als dagvoorzitter op een congres"
+               class="card-media" loading="lazy" />
+          <div class="card-body">
+            <div class="card-num">01</div>
+            <h3>Congressen &amp; events</h3>
+            <p class="card-sub">Als dagvoorzitter of moderator</p>
+            <p>Van plenaire opening tot paneldiscussie — zoals de L&amp;D-sessies bij Rabobank.
+              Ik verbind de sprekers, bewaak de rode draad en zorg dat de zaal aan het eind weet
+              wat ze ermee moeten.</p>
+          </div>
         </article>
-        <article class="card reveal">
-          <div class="card-num">02</div>
-          <h3>Kick-offs &amp; inspiratiedagen</h3>
-          <p class="card-sub">Als keynotespreker</p>
-          <p>De keynote <em>Het leven is te kort voor later</em>: waarom zijn we zo druk, terwijl
-            we allemaal dezelfde 24 uur hebben? Confronterend, grappig en met een concreet
-            handelingsperspectief.</p>
+        <article class="card card--media reveal">
+          <img src="images/spreken-stage.jpg" alt="Karin van Tongerlo als keynotespreker op het podium"
+               class="card-media" loading="lazy" />
+          <div class="card-body">
+            <div class="card-num">02</div>
+            <h3>Kick-offs &amp; inspiratiedagen</h3>
+            <p class="card-sub">Als keynotespreker</p>
+            <p>De keynote <em>Het leven is te kort voor later</em>: waarom zijn we zo druk, terwijl
+              we allemaal dezelfde 24 uur hebben? Confronterend, grappig en met een concreet
+              handelingsperspectief.</p>
+          </div>
         </article>
-        <article class="card reveal">
-          <div class="card-num">03</div>
-          <h3>Teams die door willen</h3>
-          <p class="card-sub">Als begeleider van een traject</p>
-          <p>Voor als één dag niet genoeg is. Ik begeleid teams om agentic te werken: AI-agents
-            die meedraaien in jullie processen, in plaats van weer een tool erbij.</p>
+        <article class="card card--media reveal">
+          <img src="images/training-zaal.jpg" alt="Karin van Tongerlo begeleidt een teamsessie"
+               class="card-media" loading="lazy" />
+          <div class="card-body">
+            <div class="card-num">03</div>
+            <h3>Teams die door willen</h3>
+            <p class="card-sub">Als begeleider van een traject</p>
+            <p>Voor als één dag niet genoeg is. Ik begeleid teams om agentic te werken: AI-agents
+              die meedraaien in jullie processen, in plaats van weer een tool erbij.</p>
+          </div>
         </article>
       </div>
     </div>
@@ -179,7 +205,8 @@
   <section class="section">
     <div class="container split">
       <div class="split-media reveal">
-        <img src="images/keynote.jpg" alt="Karin van Tongerlo tijdens een keynote" class="photo photo--wide" />
+        <img src="images/spreken-close.jpg" alt="Karin van Tongerlo tijdens een keynote"
+             class="photo photo--wide photo--focus-left" loading="lazy" />
       </div>
       <div class="split-text reveal">
         <p class="eyebrow">Eerlijke vraag</p>
@@ -201,7 +228,7 @@
   </section>
 
   <!-- ============ ZO WERKT HET ============ -->
-  <section class="section section-dark">
+  <section class="section section-dark stripes">
     <div class="container">
       <div class="section-head reveal">
         <p class="eyebrow">Zo werkt het</p>
@@ -237,7 +264,7 @@
   </section>
 
   <!-- ============ VIDEO ============ -->
-  <section class="section video-section" id="video">
+  <section class="section section-dark video-section" id="video">
     <div class="container">
       <div class="section-head section-head--center reveal">
         <p class="eyebrow">Zie &amp; hoor mij spreken</p>
@@ -254,7 +281,7 @@
   </section>
 
   <!-- ============ ERVARINGEN ============ -->
-  <section class="section testimonials">
+  <section class="section testimonials stripes-light">
     <div class="container">
       <div class="section-head section-head--center reveal">
         <p class="eyebrow">Ervaringen</p>
@@ -262,10 +289,8 @@
       </div>
       <div class="quotes">
         <figure class="quote reveal">
-          <blockquote>Tijdens onze reflectiesessies heeft Karin ons op inspirerende wijze
-            begeleid met werkvormen die onze way of working versterken. Haar aanpak was goed
-            afgestemd op onze behoeften als team: meer focus op onze doelen en een duidelijker
-            tijdspad met strakkere deadlines. Een aanrader voor teams die willen groeien in
+          <blockquote>Karin heeft ons op inspirerende wijze begeleid met werkvormen die onze
+            way of working versterken. Een aanrader voor teams die willen groeien in
             samenwerking en resultaatgericht werken.</blockquote>
           <figcaption>Ingrid Emmen</figcaption>
         </figure>
@@ -280,9 +305,9 @@
   </section>
 
   <!-- ============ BOEK MIJ ============ -->
-  <section class="section section-cta" id="boek-mij">
+  <section class="section section-cta stripes-light--soft" id="boek-mij">
     <div class="container cta-inner reveal">
-      <p class="eyebrow">Boek mij</p>
+      <p class="eyebrow">Werk met mij</p>
       <h2>Zullen we kijken of het klikt?</h2>
       <p class="lead">Stuur me het moment dat je in gedachten hebt — een congres, een kick-off of
         een traject met je team. Je hoort binnen een dag of ik beschikbaar ben en of ik de juiste
@@ -298,23 +323,34 @@
 
   <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <a href="index.html" class="logo">Karin<span class="dot">.</span></a>
-        <p>&copy; <span id="year"></span> Karin van Tongerlo — Morgen.</p>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Karin<span class="dot">.</span></a>
+          <p>Veranderkundige, spreker en dagvoorzitter. Ik krijg groepen in beweging
+            als het over AI gaat.</p>
+        </div>
+        <nav class="footer-col">
+          <p class="footer-heading">Site</p>
+          <a href="index.html">Home</a>
+          <a href="over-karin.html">Over mij</a>
+          <a href="waarom.html">Waarom Karin</a>
+          <a href="https://morgencompany.com/projecten/" target="_blank" rel="noopener">Projecten</a>
+        </nav>
+        <div class="footer-col">
+          <p class="footer-heading">Contact</p>
+          <a href="mailto:totmorgen@morgenacademy.nl">totmorgen@morgenacademy.nl</a>
+          <a href="tel:+31623226643">+31 6 23 22 66 43</a>
+          <a href="https://www.linkedin.com/in/karinvantongerlo/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.youtube.com/@MorgenAcademy/playlists" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Karin van Tongerlo, Morgen.</p>
         <p class="footer-credit">Gemaakt door
           <a href="https://morgencompany.com" target="_blank" rel="noopener">Morgen&nbsp;Company</a>
         </p>
       </div>
-      <nav class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="over-karin.html">Over Karin</a>
-        <a href="https://morgencompany.com/projecten/" target="_blank" rel="noopener">Projecten</a>
-        <a href="mailto:totmorgen@morgenacademy.nl">totmorgen@morgenacademy.nl</a>
-        <a href="tel:+31623226643">+31 6 23 22 66 43</a>
-        <a href="https://www.linkedin.com/in/karinvantongerlo/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://www.youtube.com/@MorgenAcademy/playlists" target="_blank" rel="noopener">YouTube</a>
-      </nav>
     </div>
   </footer>
 
